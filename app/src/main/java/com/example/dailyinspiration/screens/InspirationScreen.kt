@@ -20,7 +20,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.Star
-
+import androidx.compose.material.icons.filled.History
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -99,7 +99,7 @@ fun InspirationScreen(navController: NavController) {
             )
             Spacer(modifier = Modifier.width(16.dp))
             Icon(
-                imageVector        = Icons.Filled.Star,
+                imageVector        = Icons.Filled.History,
                 contentDescription = "History",
                 tint               = Color(0xFF7A7A7A),
                 modifier           = Modifier
